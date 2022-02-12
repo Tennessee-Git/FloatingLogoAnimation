@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+section {
+    position: relative;
+    background-color: black;
+}
+
+.logo {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    fill:crimson;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 64px;
+        height: 64px;
+    }
+}
